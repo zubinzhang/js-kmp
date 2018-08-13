@@ -11,6 +11,7 @@ export function getNext(word) {
 
       next[wordIndex] = suffixIndex;
     } else {
+      // wordIndex不回退
       suffixIndex = next[suffixIndex];
     }
   }

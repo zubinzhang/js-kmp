@@ -42,6 +42,7 @@ export default function knuthMorrisPratt(searchString, word) {
       strIndex++;
       wordIndex++;
     } else {
+      // wordIndex不回退
       wordIndex = next[wordIndex];
     }
   }
