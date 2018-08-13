@@ -1,5 +1,5 @@
 // Create by Zubin on 2018-08-13 10:27:07
-import indexOf from '../src/string_indexof';
+import indexOf from '../src/search_string';
 
 describe('string indexof', () => {
   it('should find word position in given text', () => {
