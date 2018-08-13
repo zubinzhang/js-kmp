@@ -6,5 +6,7 @@ describe('string indexof', () => {
     expect(indexOf('china', 'cn')).toBe(-1);
     expect(indexOf('china', 'c')).toBe(0);
     expect(indexOf('china', 'in')).toBe(2);
+    expect(indexOf('china', '')).toBe(0);
+    expect(indexOf('abadabdafasdgasadcd', 'sad')).toBe(14);
   });
 });
