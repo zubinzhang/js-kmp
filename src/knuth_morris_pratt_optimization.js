@@ -10,6 +10,7 @@ export function getNext(word) {
       suffixIndex++;
       wordIndex++;
 
+      // 相同继续往前找真前缀
       if (word[wordIndex] === word[suffixIndex]) {
         next[wordIndex] = next[suffixIndex];
       } else {
@@ -22,12 +23,6 @@ export function getNext(word) {
 
   return next;
 }
-
-// console.log(getNext('a'));
-// console.log(getNext('ab'));
-// console.log(getNext('abc'));
-// console.log(getNext('aba'));
-// console.log(getNext('abcdabd'));
 
 /**
  * KMP算法(优化)
