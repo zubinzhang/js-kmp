@@ -23,18 +23,22 @@
     "url": "git+https://github.com/zubincheung/js-kmp.git"
   },
   "devDependencies": {
-    "@types/jest": "^23.1.4",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@types/jest": "^24.0.15",
     "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
-    "codecov": "^3.0.2",
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jest": "^21.17.0",
-    "eslint-plugin-jsx-a11y": "^6.1.0",
-    "eslint-plugin-react": "^7.10.0",
-    "jest": "^23.3.0",
+    "codecov": "^3.5.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "jest": "^24.8.0",
+    "lodash": "^4.17.14",
     "pre-commit": "^1.2.2",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.3"
   }
 }
